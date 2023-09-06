@@ -35,19 +35,8 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-		<div className="ads left" Style={{ float: "left", width: "160px", height"600px", margin:"10px"}}>
-		 <img src="https://www.5banners.com/store/img/cms/160x600W.gif"></img>
-		</div>
       <header className="text-center mb-8">
-	      <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-	
-	    <div class="left-ad">
-        <img src="https://www.5banners.com/store/img/cms/160x600W.gif" alt="Left Ad">
-    </div>
-
-    
+	  
         <h1 className="text-3xl font-bold mb-2">
           Youtube Thumbnail Downloader
         </h1>
@@ -88,9 +77,6 @@ const Index = () => {
           </div>
         </div>
       )}
-    </div>
-<div class="right-ad">
-        <img src="https://www.5banners.com/store/img/cms/160x600W.gif" alt="Right Ad">
     </div>
   );	
 };

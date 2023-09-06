@@ -1,20 +1,3 @@
-/* CSS for the left ad */
-.left-ad {
-    float: left;
-    width: 160px;
-    height: 600px;
-    margin-right: 10px; /* Adjust the margin as needed */
-}
-
-/* CSS for the right ad */
-.right-ad {
-    float: right;
-    width: 160px;
-    height: 600px;
-    margin-left: 10px; /* Adjust the margin as needed */
-}
-
-
 /* This is where the default styles for your application can be defined */
 
 /* Set the base font and background color for the entire app */
