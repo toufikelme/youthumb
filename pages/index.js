@@ -35,16 +35,6 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-			  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
-     crossorigin="anonymous"></script>
-<!-- R and L -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-6949411170952048"
-     data-ad-slot="3225800344"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
       <header className="text-center mb-8">
 	  
         <h1 className="text-3xl font-bold mb-2">
