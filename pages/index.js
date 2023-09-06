@@ -78,18 +78,6 @@ const Index = () => {
         </div>
       )}
     </div>
-	<div className="ads right" Style={{ float: "right", width: "160px", height"600px", margin:"10px"}}>
-	 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
-     crossorigin="anonymous"></script>
-	 <!-- R and L -->
-     <ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-6949411170952048"
-     data-ad-slot="3225800344"></ins>
-     <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-     </script>
-	</div>
   );	
 };
 
