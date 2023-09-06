@@ -35,6 +35,9 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
+		<div className="ads left" Style={{ float: "left", width: "160px", height"600px", margin:"10px"}}>
+		 <img src="https://www.5banners.com/store/img/cms/160x600W.gif"></img>
+		</div>
       <header className="text-center mb-8">
 	  
         <h1 className="text-3xl font-bold mb-2">
@@ -78,6 +81,9 @@ const Index = () => {
         </div>
       )}
     </div>
+	<div className="ads right" Style={{ float: "right", width: "160px", height"600px", margin:"10px"}}>
+		<img src="https://www.5banners.com/store/img/cms/160x600W.gif"></img>
+	</div>
   );	
 };
 
