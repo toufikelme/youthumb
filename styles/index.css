@@ -2,7 +2,7 @@
 
 /* Set the base font and background color for the entire app */
 body {
-  font-family: Arial, sans-serif;
+  font-family: system-ui;
   background-color: #f7fafc;
 }
 
@@ -13,6 +13,10 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
 
 /* Style the input and button for the YouTube URL */
@@ -76,4 +80,18 @@ input[type="text"] + button {
 
 .thumbnail-option button:hover {
   background-color: #2680c5;
+}
+
+.cities {
+  max-width: auto;  
+  padding: 10px;
+  background-color: #F9F9F9;
+}
+h2 {   
+  font-size: 18px;
+  margin-top: 0.67em;
+  margin-bottom: 0.27em;
+  margin-left: 0;
+  margin-right: 0;  
+  font-family: "Courier New", Courier, monospace;
 }
