@@ -1,6 +1,7 @@
 import { useState } from "react";
 import copy from "copy-to-clipboard";
 
+
 const Index = () => {
   const [videoURL, setVideoURL] = useState("");
   const [thumbnailOptions, setThumbnailOptions] = useState([]);
@@ -181,6 +182,44 @@ const Index = () => {
           The copyright of the thumbnail belongs to the creator or designer. Without the permission of the copyright owner, they can report and sue you for using the content in the thumbnail. Therefore, I don't recommend copying the video thumbnails of others. But it can be used as a design inspiration to create your thumbnails.
         </p>
       </section>
+       {/* Container for left and right ads */}
+      <div className="flex justify-between">
+        <div className="w-1/6">
+          {/* Display the AdSense component on the left side */}
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+            crossOrigin="anonymous"
+          ></script>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'inline-block', width: '160px', height: '600px' }}
+            data-ad-client="ca-pub-6949411170952048"
+            data-ad-slot="9214060987"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+
+        <div className="w-1/6">
+          {/* Display the AdSense component on the right side */}
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+            crossOrigin="anonymous"
+          ></script>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'inline-block', width: '160px', height: '600px' }}
+            data-ad-client="ca-pub-6949411170952048"
+            data-ad-slot="9214060987"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>	  
     </div>
   );	
 };

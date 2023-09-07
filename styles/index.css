@@ -1,5 +1,23 @@
 /* This is where the default styles for your application can be defined */
 
+/* styles.css */
+.ads-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 160px;
+  height: 600px;
+}
+
+.ads-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 160px;
+  height: 600px;
+}
+
+
 /* Set the base font and background color for the entire app */
 body {
   font-family: system-ui;
