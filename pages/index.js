@@ -191,7 +191,16 @@ const Index = () => {
 
         <div className="w-1/6">
           {/* Display the AdSense component on the right side */}
-<img decoding="async" fetchpriority="high" width="160" height="600" alt="160x600 Skyscraper Ad Unit" title="160×600 Nespresso" src="https://gourmetads.com/wp-content/uploads/2019/02/160x600-nespresso.jpg" class="img-responsive wp-image-2053"></img>
+		  <img
+            decoding="async"
+            fetchpriority="high"
+            width="160"
+            height="600"
+            alt="160x600 Skyscraper Ad Unit"
+            title="160×600 Nespresso"
+            src="https://gourmetads.com/wp-content/uploads/2019/02/160x600-nespresso.jpg"
+            className="img-responsive wp-image-2053"
+          />
         </div>
       </div>	  
     </div>
