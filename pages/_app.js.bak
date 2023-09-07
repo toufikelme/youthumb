@@ -16,8 +16,6 @@ function MyApp({ Component, pageProps }) {
           site_name: "Youtube Thumbnail Downloader",
         }}
       />
-	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
-     crossorigin="anonymous"></script>
       <Component {...pageProps} />
     </Fragment>
   );
