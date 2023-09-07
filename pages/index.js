@@ -14,6 +14,8 @@ const Index = () => {
       const thumbnailBaseUrl = "http://img.youtube.com/vi/";
 
       const options = [
+	    { resolution: "HD (1280x720)", code: "maxresdefault" },
+        { resolution: "SD (640x480)", code: "sddefault" },
         { resolution: "High-Quality (480x360)", code: "hqdefault" },
         { resolution: "Medium Quality (320x180)", code: "mqdefault" },
         { resolution: "Normal Quality (120x90)", code: "default" },
@@ -72,7 +74,7 @@ const Index = () => {
           </div>
         </div>
       )}
-      
+      <br /><br /><br /><br /><br />
       <section className="mb-8" >
         <center><h2 className="text-xl font-semibold mb-2">About YT Thumbnail Downloader</h2></center>
         <p className="text-gray-600">

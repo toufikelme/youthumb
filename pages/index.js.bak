@@ -72,9 +72,9 @@ const Index = () => {
           </div>
         </div>
       )}
-      
+      <br /><br /><br /><br /><br />
       <section className="mb-8" >
-        <div class="cities"><center><h2 className="text-xl font-semibold mb-2">About YT Thumbnail Downloader</h2></center></div>
+        <center><h2 className="text-xl font-semibold mb-2">About YT Thumbnail Downloader</h2></center>
         <p className="text-gray-600">
           YT (You Thumbnail) YouTube thumbnail downloader allows you to
           download YouTube thumbnails easily and fastly. It's an online tool,
