@@ -186,7 +186,7 @@ const Index = () => {
       <div className="flex justify-between">
         <div className="w-1/6">
           {/* Display the AdSense component on the left side */}
-          <script
+          <div className="ads-left"><script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
             crossOrigin="anonymous"
@@ -200,10 +200,11 @@ const Index = () => {
           <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
-        </div>
+        </div></div>
 
         <div className="w-1/6">
           {/* Display the AdSense component on the right side */}
+		  <div className="ads-right">
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
@@ -219,6 +220,7 @@ const Index = () => {
             (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
         </div>
+		</div>
       </div>	  
     </div>
   );	
