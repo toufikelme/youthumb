@@ -187,33 +187,35 @@ const Index = () => {
         <div className="w-1/6">
           {/* Display the AdSense component on the left side */}
           <div className="ads-left">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
-     crossorigin="anonymous"></script>
-<!-- ads L&R -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-6949411170952048"
-     data-ad-slot="9214060987"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-        </div></div>
+               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+                    crossorigin="anonymous"></script>
+               <!-- ads L&R -->
+               <ins class="adsbygoogle"
+                    style="display:inline-block;width:160px;height:600px"
+                    data-ad-client="ca-pub-6949411170952048"
+                    data-ad-slot="9214060987"></ins>
+               <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+               </script>
+        </div>
+		</div>
+		</div>
 
         <div className="w-1/6">
           {/* Display the AdSense component on the right side */}
 		  <div className="ads-right">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
-     crossorigin="anonymous"></script>
-<!-- ads L&R -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-6949411170952048"
-     data-ad-slot="9214060987"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+                     crossorigin="anonymous"></script>
+                <!-- ads L&R -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:160px;height:600px"
+                     data-ad-client="ca-pub-6949411170952048"
+                     data-ad-slot="9214060987"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
         </div>
-		</div>
+		   </div>
       </div>	  
     </div>
   );	
