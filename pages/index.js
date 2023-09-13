@@ -183,7 +183,6 @@ const Index = () => {
         </p>
       </section>
        {/* Container for left and right ads */}
-        <div className="flex justify-between">
             <div className="w-1/6">
           {/* Display the AdSense component on the left side */}
                 <div className="ads-left">
@@ -199,9 +198,7 @@ const Index = () => {
                </script>
         </div>
 		    </div>
-		        </div>
-
-        <div className="w-1/6">
+		<div className="w-1/6">
           {/* Display the AdSense component on the right side */}
 		    <div className="ads-right">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
