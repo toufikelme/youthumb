@@ -188,14 +188,14 @@ const Index = () => {
         <div className="w-1/6">
           {/* Display the AdSense component on the left side */}
             <div className="ads-left">
-             <img decoding="async" fetchpriority="high" width="160" height="600" alt="160x600 Skyscraper Ad Unit" title="160×600 Nespresso" src="https://gourmetads.com/wp-content/uploads/2019/02/160x600-nespresso.jpg" class="img-responsive wp-image-2053"></img>
+
             </div>
 	    </div>
 
         <div className="w-1/6">
           {/* Display the AdSense component on the right side */}
 		  <div className="ads-right">
-<img decoding="async" fetchpriority="high" width="160" height="600" alt="160x600 Skyscraper Ad Unit" title="160×600 Nespresso" src="https://gourmetads.com/wp-content/uploads/2019/02/160x600-nespresso.jpg" class="img-responsive wp-image-2053"></img>
+
         </div>
 		</div>
       </div>	  
