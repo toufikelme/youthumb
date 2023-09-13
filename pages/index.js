@@ -36,6 +36,16 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 text-center">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+     crossorigin="anonymous"></script>
+<!-- LetR -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-6949411170952048"
+     data-ad-slot="8776739419"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
       <header className="mb-8">
         <h1 className="text-3xl font-bold mb-2">YT Thumbnail Downloader</h1>
         <p className="text-gray-600">
@@ -182,23 +192,7 @@ const Index = () => {
           The copyright of the thumbnail belongs to the creator or designer. Without the permission of the copyright owner, they can report and sue you for using the content in the thumbnail. Therefore, I don't recommend copying the video thumbnails of others. But it can be used as a design inspiration to create your thumbnails.
         </p>
       </section>
-       {/* Container for left and right ads */}
-      <div className="flex justify-between">
-        <div className="w-1/6">
-          {/* Display the AdSense component on the left side */}
-          <div className="ads-left">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
-     crossorigin="anonymous"></script>
-<!-- LetR -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-6949411170952048"
-     data-ad-slot="8776739419"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-        </div></div>
-
+       
         <div className="w-1/6">
           {/* Display the AdSense component on the right side */}
 		  <div className="ads-right">
