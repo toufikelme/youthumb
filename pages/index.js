@@ -181,7 +181,7 @@ const Index = () => {
         <p className="text-gray-600">
           The copyright of the thumbnail belongs to the creator or designer. Without the permission of the copyright owner, they can report and sue you for using the content in the thumbnail. Therefore, I don't recommend copying the video thumbnails of others. But it can be used as a design inspiration to create your thumbnails.
         </p>
-      </section><body>
+      </section>
        {/* Container for left and right ads */}
       <div className="flex justify-between">
         <div className="w-1/6">
@@ -205,7 +205,7 @@ const Index = () => {
 <img decoding="async" fetchpriority="high" width="160" height="600" alt="160x600 Skyscraper Ad Unit" title="160×600 Nespresso" src="https://gourmetads.com/wp-content/uploads/2019/02/160x600-nespresso.jpg" class="img-responsive wp-image-2053"></img>
         </div>
 		</div>
-      </div>	</body>  
+      </div>	  
     </div>
   );	
 };
