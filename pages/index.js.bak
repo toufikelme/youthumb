@@ -186,15 +186,39 @@ const Index = () => {
       <div className="flex justify-between">
         <div className="w-1/6">
           {/* Display the AdSense component on the left side */}
-            <div className="ads-left">
-
-            </div>
-	    </div>
+          <div className="ads-left"><script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+            crossOrigin="anonymous"
+          ></script>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'inline-block', width: '160px', height: '600px' }}
+            data-ad-client="ca-pub-6949411170952048"
+            data-ad-slot="9214060987"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div></div>
 
         <div className="w-1/6">
           {/* Display the AdSense component on the right side */}
 		  <div className="ads-right">
-
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6949411170952048"
+            crossOrigin="anonymous"
+          ></script>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'inline-block', width: '160px', height: '600px' }}
+            data-ad-client="ca-pub-6949411170952048"
+            data-ad-slot="9214060987"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
 		</div>
       </div>	  

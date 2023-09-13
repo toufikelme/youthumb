@@ -195,7 +195,7 @@ const Index = () => {
             className="adsbygoogle"
             style={{ display: 'inline-block', width: '160px', height: '600px' }}
             data-ad-client="ca-pub-6949411170952048"
-            data-ad-slot="9214060987"
+            data-ad-slot="8776739419"
           ></ins>
           <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
@@ -214,7 +214,7 @@ const Index = () => {
             className="adsbygoogle"
             style={{ display: 'inline-block', width: '160px', height: '600px' }}
             data-ad-client="ca-pub-6949411170952048"
-            data-ad-slot="9214060987"
+            data-ad-slot="8776739419"
           ></ins>
           <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
